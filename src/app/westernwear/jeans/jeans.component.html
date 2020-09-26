@@ -1,0 +1,16 @@
+
+<div class="row">
+  <div class="column" *ngFor ="let item of items">
+    <img src={{item.img}} alt="Snow" style="width:80%"  (click)="showImage(item)"  routerLink='/imageslider'>
+  <div>
+  <strong>{{item.brand}}</strong>
+
+  </div>
+  <div class="des">
+    {{item.description}}
+  </div>
+  <div>
+  <strong>Rs. {{item.price}}</strong>
+  </div>
+</div>
+

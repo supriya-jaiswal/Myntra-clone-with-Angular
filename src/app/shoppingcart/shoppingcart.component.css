@@ -1,0 +1,47 @@
+.container{
+  display: flex;
+
+  border: 1px ridge;
+  padding: 20px;
+  margin: 20px;
+  width: 60%;
+
+
+
+}
+
+span {
+  padding: 10px;
+  margin-left: 40px;
+
+  display: block;
+
+}
+.container img {
+  width: 10%;
+  height: 10%;
+  margin-bottom: 20px;
+}
+.row
+{
+  text-align: center;
+  margin: 20px;
+}
+.price{
+  padding-left: 80px ;
+  padding-bottom: 20px;
+}
+
+.totalprice{
+  display: flex;
+
+  border: 1px ridge;
+
+  margin-left: 800px;
+  text-align: justify;
+
+
+  width: 30%;
+  height: 400px;
+
+}

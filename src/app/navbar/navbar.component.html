@@ -1,0 +1,51 @@
+
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <a class="navbar-brand" href="#" >
+  <img src="\assets\images\Logo.jpg" ></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id=""navbarTogglerDemo02>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="demo1">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" data-toggle="tab"> MEN </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" data-toggle="tab"  mat-button (click)="openDialog()">WOMEN</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">KIDS</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">HOME & LIVING</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">OFFERS</a>
+      </li>
+    </ul>
+    <div class="form-inline mt-2 mt-lg-0 ">
+    <div class="inputContainer">
+      <i class="fa fa-search"></i>
+      <input class="form-control mr-sm-2 bg-light" type="search"  placeholder="Search for products, brands and more" />
+    </div>
+  </div>
+
+  </div>
+  <ul class="navlist navbar-nav navbar-right">
+    <div>
+    <i class="fa fa-user"></i>
+    <li><a class="nav-link"  routerLink="/signup"> Sign up</a></li>
+  </div>
+  <div>
+  <i class="fa fa-heart"></i>
+    <li><a class="nav-link" href="#"> Wishlist</a></li>
+  </div>
+  <div>
+    <i class="fa fa-shopping-bag"></i><span *ngIf="cartItems.length!==0">{{cartItems.length}} </span>
+    <li><a class="nav-link" routerLink="/bag"> Bag</a></li>
+  </div>
+  </ul>
+
+</nav>
+

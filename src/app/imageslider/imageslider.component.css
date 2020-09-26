@@ -1,0 +1,55 @@
+
+.container{
+  display: flex;
+  align-items: center;
+
+
+}
+
+span {
+  padding: 10px;
+  margin: auto;
+
+  display: block;
+  width: 400px;
+}
+button {
+  margin-right: 20px;
+  border: medium;
+  height: 40px;
+  width: 150px;
+  border: none;
+
+}
+span i{
+  position: absolute;
+  padding: 12px;
+  color: white;
+}
+button span{
+padding-right: 20px;
+
+
+margin-bottom: 300px;
+height: 40px;
+border: none;
+cursor: pointer;
+
+
+
+width: 150px;
+background-color: orangered;
+
+
+
+
+  /* border: medium;
+height: 40px;
+width: 40px;
+
+text-align: center;
+font-size: 16px;
+margin-bottom: 100px;
+margin-right:400px ;
+white-space: nowrap; */
+}

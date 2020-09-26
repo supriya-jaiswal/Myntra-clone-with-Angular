@@ -1,0 +1,17 @@
+
+
+  <div class="container">
+    <img src="{{item.img}}">
+  <span><strong>{{item.brand}}</strong>
+   <div>{{item.description}}</div>
+   <div><strong>Rs. {{item.price}}</strong></div>
+
+   <span><i class="fa fa-shopping-bag"></i>
+    <button style="background-color: orangered;color: white;"  (click)="addProductToCart(item)"
+     > <span *ngIf = "buttonclicked == 'Go To Cart'" routerLink="/bag">{{buttonclicked}}</span> {{buttonclicked}}</button>
+
+    <button >Wishlist</button></span>
+
+   <strong>Product Details:</strong><div>{{item.details}}</div></span>
+</div>
+

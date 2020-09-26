@@ -1,0 +1,19 @@
+<div class="row">
+  <strong>My Shopping Bag ({{carts.length}} Item)</strong>
+</div>
+<div *ngFor="let cart of carts">
+<div class="container"  >
+
+  <img src="{{cart.img}}" >
+  <span><strong>{{cart.brand}}</strong>
+   <div>{{cart.description}}</div>
+
+   <!-- <span><i class="fa fa-shopping-bag"></i>
+    <button style="background-color: orangered;color: white;" (click)="addProductToCart(item)">Add to cart</button>
+    <button >Wishlist</button></span> -->
+ </span>
+ <div class="price"><strong>Rs. {{cart.price}}</strong></div>
+</div>
+
+
+</div>

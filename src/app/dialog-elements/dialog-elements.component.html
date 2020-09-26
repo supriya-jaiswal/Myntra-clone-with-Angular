@@ -1,0 +1,19 @@
+<div class="dialog">
+<h1 mat-dialog-title>Dialog with elements</h1>
+<div mat-dialog-content class="mat-typography" ></div>
+<div *ngFor = "let d of data">
+
+
+<div  mat-dialog-actions>
+  <a mat-button mat-dialog-close routerLink="/westernwear"  *ngIf="d.type == 'Westernwear'"> {{d.type}}</a>
+  <a mat-button mat-dialog-close routerLink="/Ethnic Wear"  *ngIf="d.type == 'Ethnic Wear'"> {{d.type}}</a>
+  <a mat-button mat-dialog-close routerLink="/Accessories"  *ngIf="d.type == 'Accessories'"> {{d.type}}</a>
+  <a mat-button mat-dialog-close routerLink="/Makeup Product"  *ngIf="d.type == 'Makeup Products'"> {{d.type}}</a>
+</div>
+</div>
+<!-- <div >
+
+  <button mat-button mat-dialog-close>Close</button>
+</div> -->
+</div>
+
