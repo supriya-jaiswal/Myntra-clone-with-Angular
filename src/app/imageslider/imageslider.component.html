@@ -7,7 +7,7 @@
    <div><strong>Rs. {{item.price}}</strong></div>
 
    <span><i class="fa fa-shopping-bag"></i>
-    <button style="background-color: orangered;color: white;"  (click)="addProductToCart(item)"
+    <button style="background-color: orangered;color: white;"  (click)="addProductToCart()"
      > <span *ngIf = "buttonclicked == 'Go To Cart'" routerLink="/bag">{{buttonclicked}}</span> {{buttonclicked}}</button>
 
     <button >Wishlist</button></span>
